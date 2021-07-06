@@ -1,7 +1,7 @@
 class Deal {
   constructor(_date, _amount, _quantity) {
+    this._date = new Date(_date.getTime()),
     Object.assign(this, {
-      _date = new Date(date.getTime()),
       _amount,
       _quantity,
     });
